@@ -1,3 +1,12 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="Email spam detection"
+)
+
+
+
+
 
 import numpy as np
 import pandas as pd
@@ -72,8 +81,8 @@ header="""
 <body style="background-color:powderblue;"><div class="topnav">
   <a class="active" href="/">Home</a>
   <div class="topnav-right">
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="contact">Contact</a>
+    <a href="about">About</a>
   </div>
 </div>
 
@@ -85,7 +94,7 @@ st.markdown(header,unsafe_allow_html=True)
 st.markdown('<br/>', unsafe_allow_html=True)
 
 #st.markdown("<h2 style='text-align: center; color: #white;'>Email Spam Classifier</h2>", unsafe_allow_html=True)
-st.image(image, width=700)
+st.image(image, width=700,use_column_width='auto')
 
 st.markdown('<br/>', unsafe_allow_html=True)
 
@@ -157,18 +166,9 @@ footer="""
 
 """
 
-st.markdown("<h2 style='text-align: center;'>ABOUT US</h2>", unsafe_allow_html=True)
-about="""
-
-<h5 id="about" style=' color:#696969; '>This is a web application for spam email detection, it can help you to make sure if an email or a SMS is a Spam or not,
-this projet is developed using machine learning with python by Ahmed ACH-CHATIBI and El mustapha EJ-JAMAAY 
-who are two students in faculte of science Semlalia in master ISI S1</h5>
-
-"""
 
 st.markdown('<br/>', unsafe_allow_html=True)
 
-st.markdown(about,unsafe_allow_html=True)
 
 st.markdown('<br/>', unsafe_allow_html=True)
 st.markdown('<br/>', unsafe_allow_html=True)
