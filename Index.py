@@ -115,9 +115,9 @@ if st.button('Predict'):
 
 
     if (prediction[0]==0):
-        st.markdown('<h2 style="text-align: center; color:red; border-style: dotted; margin:30px 100px; padding: 50px 20px;  border-color: red;">SPAM</h2>', unsafe_allow_html=True)
+        st.markdown('<h2 style="text-align: center; color:red; border-style: dotted; margin:30px 00px; padding: 50px 20px;  border-color: red;">SPAM</h2>', unsafe_allow_html=True)
     else:
-        st.markdown('<h2 style="text-align: center; color:green; border-style: dotted; margin:30px 100px; padding: 50px 20px;  border-color: green;">NOT SPAM</h2>', unsafe_allow_html=True)
+        st.markdown('<h2 style="text-align: center; color:green; border-style: dotted; margin:30px 00px; padding: 50px 20px;  border-color: green;">NOT SPAM</h2>', unsafe_allow_html=True)
 
 footer="""
 <style>
