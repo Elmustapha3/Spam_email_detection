@@ -102,7 +102,7 @@ about="""
 
 <h5 id="about" style=' color:#696969; '>This is a web application for spam email detection, it can help you to make sure if an email or a SMS is a Spam or not,
 this projet is developed using machine learning with python by Ahmed ACH-CHATIBI and El mustapha EJ-JAMAAY 
-who are two students in faculte of science Semlalia in master ISI S1</h5>
+who are two students in faculte of science Semlalia in master ISI S1 2022-2023</h5>
 
 """
 

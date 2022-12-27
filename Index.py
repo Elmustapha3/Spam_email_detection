@@ -87,7 +87,7 @@ header="""
 </div>
 
 """
-image = Image.open('static/fssmv2.png')
+image = Image.open('static/fssm.png')
 
 
 st.markdown(header,unsafe_allow_html=True)
